@@ -135,7 +135,7 @@ def create_schedule(audit_log):
 
 
 def find_sleepy_guard(schedule):
-    guard_map = defaultdict(0)
+    guard_map = defaultdict(int)
     for day in schedule:
         guard_map[day.guard_id()] += day.minutes_sleeping()
 
