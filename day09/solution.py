@@ -1,5 +1,5 @@
 from collections import defaultdict
-from  collections import deque
+from collections import deque
 
 from input_decorator import has_input
 
